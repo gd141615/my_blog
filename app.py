@@ -19,7 +19,7 @@ def basic_url():
 
 @app.route("/map/w01-6", methods=['GET'])
 def map_w01_6():
-    return app.send_static_file('W01-6.html')
+    return app.send_static_file('index.html')
 
 
 if __name__ == "__main__":
